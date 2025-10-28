@@ -1,0 +1,32 @@
+{
+  "name": "data-quality-analyzer",
+  "version": "1.0.0",
+  "description": "CSV数据质量维度分析程序 - 分析数据库字段数据质量维度的自动化工具",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "axios": "^1.6.0"
+  },
+  "keywords": [
+    "csv",
+    "api",
+    "agent",
+    "data-quality",
+    "analysis",
+    "automation"
+  ],
+  "author": "ynu",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ynu/data-quality-analyzer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ynu/data-quality-analyzer/issues"
+  },
+  "homepage": "https://github.com/ynu/data-quality-analyzer#readme"
+}
